@@ -7,25 +7,24 @@ part of 'customer.dart';
 // **************************************************************************
 
 Customer _$CustomerFromJson(Map<String, dynamic> json) => Customer(
-      json['name'] as String,
-      json['age'] as int,
-      json['score'] as int,
-      (json['carts'] as List<dynamic>).map((e) => e as String).toList(),
+      json['id'] as String,
+      (json['purchases'] as List<dynamic>)
+          .map((e) => Purchase.fromJson(e as Map<String, dynamic>))
+          .toList(),
     );
 
-Map<String, dynamic> _$CustomerToJson(Customer instance) => <String, dynamic>{
-      'name': instance.name,
-      'age': instance.age,
-      'score': instance.score,
-      'carts': instance.carts,
+Map<String, dynamic> _$CustomerToJson(Customer instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'purchases': instance.purchases,
     };
 
-Cart _$CartFromJson(Map<String, dynamic> json) => Cart(
-      json['id'] as String,
-      json['score'] as int,
+Purchase _$PurchaseFromJson(Map<String, dynamic> json) => Purchase(
+      json['timestamp'] as String,
+      json['unix_timestamp'] as int,
     );
 
-Map<String, dynamic> _$CartToJson(Cart instance) => <String, dynamic>{
-      'id': instance.id,
-      'score': instance.score,
+Map<String, dynamic> _$PurchaseToJson(Purchase instance) => <String, dynamic>{
+      'timestamp': instance.timestamp,
+      'unix_timestamp': instance.unixTimeStamp,
     };

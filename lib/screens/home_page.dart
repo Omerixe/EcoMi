@@ -19,7 +19,7 @@ class _HomePageState extends State<HomePage> {
   }
 
   void loadCustomer() async {
-    customer = NetworkRepository().fetchCustomer('cus2');
+    customer = NetworkRepository().fetchCustomer('100001');
   }
 
   @override
@@ -33,10 +33,10 @@ class _HomePageState extends State<HomePage> {
           if (snapshot.hasData) {
             var customer = snapshot.data!;
             return Column(children: [
-              Text('Hello ${customer.name}!'),
-              /*Expanded(
+              Text('Hello Susan!'),
+              Expanded(
                 child: ListView.builder(
-                    itemCount: customer.carts.length,
+                    itemCount: customer.purchases.length,
                     itemBuilder: (BuildContext context, int index) {
                       return Card(
                         child: Padding(
@@ -45,16 +45,17 @@ class _HomePageState extends State<HomePage> {
                             crossAxisAlignment: CrossAxisAlignment.center,
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Text('Carts: ${customer.carts[index].id}'),
                               Text(
-                                '${customer.carts[index].score}',
-                              ),
+                                  'Carts: ${customer.purchases[index].timestamp}'),
+                              Text('[score]'
+                                  //'${customer.carts[index].score}',
+                                  ),
                             ],
                           ),
                         ),
                       );
                     }),
-              )*/
+              )
             ]);
           } else if (snapshot.hasError) {
             return Text('We have an error :( ${snapshot.error.toString()}');

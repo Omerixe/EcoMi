@@ -4,12 +4,10 @@ part 'customer.g.dart';
 
 @JsonSerializable()
 class Customer {
-  final String name;
-  final int age;
-  final int score;
-  final List<String> carts;
+  final String id;
+  final List<Purchase> purchases;
 
-  Customer(this.name, this.age, this.score, this.carts);
+  Customer(this.id, this.purchases);
 
   factory Customer.fromJson(Map<String, dynamic> json) =>
       _$CustomerFromJson(json);
@@ -18,13 +16,15 @@ class Customer {
 }
 
 @JsonSerializable()
-class Cart {
-  final String id;
-  final int score;
+class Purchase {
+  final String timestamp;
+  @JsonKey(name: 'unix_timestamp')
+  final int unixTimeStamp;
 
-  Cart(this.id, this.score);
+  Purchase(this.timestamp, this.unixTimeStamp);
 
-  factory Cart.fromJson(Map<String, dynamic> json) => _$CartFromJson(json);
+  factory Purchase.fromJson(Map<String, dynamic> json) =>
+      _$PurchaseFromJson(json);
 
-  Map<String, dynamic> toJson() => _$CartToJson(this);
+  Map<String, dynamic> toJson() => _$PurchaseToJson(this);
 }
