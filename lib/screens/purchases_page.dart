@@ -6,12 +6,12 @@ import 'package:mi_sustainability/data/customer.dart';
 import '../colors.dart';
 import '../repository.dart';
 
-class HomePage extends StatefulWidget {
+class PurchasesPage extends StatefulWidget {
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<PurchasesPage> createState() => _PurchasesPageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _PurchasesPageState extends State<PurchasesPage> {
   late Future<Customer> customer;
 
   @override

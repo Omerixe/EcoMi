@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'home_page.dart';
+import 'purchases_page.dart';
 
 class BadgeScreen extends StatelessWidget {
   @override
@@ -37,7 +37,7 @@ class BadgeScreen extends StatelessWidget {
                 onPressed: () {
                   Navigator.pushReplacement(
                     context,
-                    MaterialPageRoute(builder: (context) => HomePage()),
+                    MaterialPageRoute(builder: (context) => PurchasesPage()),
                   );
                 },
                 child: const Text('Continue'),

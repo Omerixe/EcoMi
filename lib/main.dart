@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mi_sustainability/screens/home_page.dart';
 import 'package:mi_sustainability/screens/onboarding/onboarding_page.dart';
+import 'package:mi_sustainability/screens/purchases_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'colors.dart';
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      home: onboardingDone ? HomePage() : OnboardingPage(),
+      home: onboardingDone ? PurchasesPage() : OnboardingPage(),
     );
   }
 }
