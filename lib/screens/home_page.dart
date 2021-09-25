@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'history_page.dart';
 import 'purchases_page.dart';
 
 class HomePage extends StatefulWidget {
@@ -9,9 +10,6 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   int _selectedIndex = 0;
-
-  static const TextStyle optionStyle =
-      TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
 
   void _onItemTapped(int index) {
     setState(() {
@@ -25,9 +23,9 @@ class _HomePageState extends State<HomePage> {
       child: Scaffold(
         body: IndexedStack(
           children: [
-            Text('Test'),
+            HistoryPage(),
             PurchasesPage(),
-            Text('Blub'),
+            Text('TBD'),
           ],
           index: _selectedIndex,
         ),
