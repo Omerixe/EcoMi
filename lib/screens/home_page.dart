@@ -19,7 +19,7 @@ class _HomePageState extends State<HomePage> {
   }
 
   void loadCustomer() async {
-    customer = NetworkRepository().fetchCustomer('cus1');
+    customer = NetworkRepository().fetchCustomer('cus2');
   }
 
   @override

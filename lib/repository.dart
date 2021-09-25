@@ -16,8 +16,8 @@ class NetworkRepository implements Repository {
 
   @override
   Future<Customer> fetchCustomer(String customerId) async {
-    final response =
-        await http.get(Uri.parse(url + '/customer?customer_id=$customerId'));
+    final response = await http
+        .get(Uri.parse(url + '/score/customer?customer_id=$customerId'));
 
     if (response.statusCode == 200) {
       // If the server did return a 200 OK response,

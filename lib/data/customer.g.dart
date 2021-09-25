@@ -10,12 +10,14 @@ Customer _$CustomerFromJson(Map<String, dynamic> json) => Customer(
       json['name'] as String,
       json['age'] as int,
       json['score'] as int,
+      (json['carts'] as List<dynamic>).map((e) => e as String).toList(),
     );
 
 Map<String, dynamic> _$CustomerToJson(Customer instance) => <String, dynamic>{
       'name': instance.name,
       'age': instance.age,
       'score': instance.score,
+      'carts': instance.carts,
     };
 
 Cart _$CartFromJson(Map<String, dynamic> json) => Cart(

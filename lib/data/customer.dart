@@ -7,10 +7,9 @@ class Customer {
   final String name;
   final int age;
   final int score;
+  final List<String> carts;
 
-  //final List<Cart> carts;
-
-  Customer(this.name, this.age, this.score);
+  Customer(this.name, this.age, this.score, this.carts);
 
   factory Customer.fromJson(Map<String, dynamic> json) =>
       _$CustomerFromJson(json);
