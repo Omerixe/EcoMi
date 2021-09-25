@@ -31,13 +31,28 @@ class _HomePageState extends State<HomePage> {
         future: customer,
         builder: (BuildContext context, AsyncSnapshot<Customer> snapshot) {
           if (snapshot.hasData) {
+            var customer = snapshot.data!;
             return Column(children: [
-              Text('Hello user!'),
+              Text('Hello ${customer.name}!'),
               Expanded(
                 child: ListView.builder(
-                    itemCount: snapshot.data!.carts.length,
+                    itemCount: customer.carts.length,
                     itemBuilder: (BuildContext context, int index) {
-                      return Text('Carts: ${snapshot.data!.carts[index].id}');
+                      return Card(
+                        child: Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Row(
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Text('Carts: ${customer.carts[index].id}'),
+                              Text(
+                                '${customer.carts[index].score}',
+                              ),
+                            ],
+                          ),
+                        ),
+                      );
                     }),
               )
             ]);

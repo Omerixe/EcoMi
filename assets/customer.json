@@ -1,5 +1,6 @@
 {
   "id": "customer1",
+  "name": "Susan",
   "carts": [
     {
       "id": "p1",
