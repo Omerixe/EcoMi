@@ -26,7 +26,6 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return SafeArea(
         child: Scaffold(
-      appBar: AppBar(title: Text('Mi Sustainability')),
       body: FutureBuilder<Customer>(
         future: customer,
         builder: (BuildContext context, AsyncSnapshot<Customer> snapshot) {

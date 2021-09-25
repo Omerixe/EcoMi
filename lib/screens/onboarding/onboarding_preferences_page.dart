@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:mi_sustainability/screens/badge_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../colors.dart';
-import '../home_page.dart';
 
 class OnboardingPreferencesPage extends StatefulWidget {
   @override
@@ -162,7 +162,7 @@ class _OnboardingPreferencesPageState extends State<OnboardingPreferencesPage> {
                       prefs.setBool('onboardingDone', true);
                       Navigator.pushReplacement(
                         context,
-                        MaterialPageRoute(builder: (context) => HomePage()),
+                        MaterialPageRoute(builder: (context) => BadgeScreen()),
                       );
                     },
                     child: const Text('Start'),
