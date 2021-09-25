@@ -12,9 +12,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Mi Sustainability',
       theme: ThemeData.light().copyWith(
-          primaryColor: Colors.orange,
+          primaryColor: Color(0xffFF6600),
           appBarTheme: AppBarTheme(
-            color: Colors.orange,
+            color: Color(0xffFF6600),
           )),
       home: HomePage(),
     );
