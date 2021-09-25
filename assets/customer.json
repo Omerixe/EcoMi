@@ -1,0 +1,13 @@
+{
+  "id": "customer1",
+  "purchases": [
+    {
+      "id": "p1",
+      "score": 2
+    },
+    {
+      "id": "p2",
+      "score": 4
+    }
+  ]
+}
