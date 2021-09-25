@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:mi_sustainability/screens/home_page.dart';
 
+import 'colors.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -12,9 +14,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Mi Sustainability',
       theme: ThemeData.light().copyWith(
-          primaryColor: Color(0xffFF6600),
+          primaryColor: kPrimaryColor,
           appBarTheme: AppBarTheme(
-            color: Color(0xffFF6600),
+            color: kPrimaryColor,
           )),
       home: HomePage(),
     );
