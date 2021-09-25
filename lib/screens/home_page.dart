@@ -10,30 +10,34 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  late Customer? customer = null;
+  late Future<Customer> customer;
 
   @override
   void initState() {
+    super.initState();
     loadCustomer();
   }
 
   void loadCustomer() async {
-    customer = await LocalRepository().fetchCustomer();
+    customer = LocalRepository().fetchCustomer();
   }
 
   @override
   Widget build(BuildContext context) {
     return SafeArea(
         child: Scaffold(
-      appBar: AppBar(title: Text('Mi Sustainability')),
-      body: Column(
-        children: customer == null
-            ? [
-                Text('Loading...'),
-              ]
-            : [
-                Text('We do have a customer ${customer!.id}'),
-              ],
+          appBar: AppBar(title: Text('Mi Sustainability')),
+      body: FutureBuilder<Customer>(
+        future: customer,
+        builder: (BuildContext context, AsyncSnapshot<Customer> snapshot) {
+          if (snapshot.hasData) {
+            return Text('We have data!');
+          } else if (snapshot.hasError) {
+            return Text('We have an error :(');
+          } else {
+            return Text('Loading...');
+          }
+        },
       ),
     ));
   }
