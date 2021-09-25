@@ -27,6 +27,7 @@ class MyApp extends StatelessWidget {
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
             primary: kPrimaryColor,
+            minimumSize: Size(double.infinity, 45),
           ),
         ),
       ),

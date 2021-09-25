@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 import 'package:mi_sustainability/colors.dart';
-import 'package:mi_sustainability/screens/home_page.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import 'package:mi_sustainability/screens/onboarding/onboarding_preferences_page.dart';
 
 class OnboardingPage extends StatefulWidget {
   @override
@@ -47,11 +46,10 @@ class _OnboardingState extends State<OnboardingPage> {
             decoration: pageDecoration,
             footer: ElevatedButton(
               onPressed: () async {
-                SharedPreferences prefs = await SharedPreferences.getInstance();
-                prefs.setBool('onboardingDone', true);
                 Navigator.pushReplacement(
                   context,
-                  MaterialPageRoute(builder: (context) => HomePage()),
+                  MaterialPageRoute(
+                      builder: (context) => OnboardingPreferencesPage()),
                 );
               },
               child: const Text("Let's Go !"),
