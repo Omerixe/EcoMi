@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:mi_sustainability/screens/onboarding/onboarding_page.dart';
-import 'package:mi_sustainability/screens/purchases_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'colors.dart';
+import 'screens/home_page.dart';
 
 late bool onboardingDone;
 
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      home: onboardingDone ? PurchasesPage() : OnboardingPage(),
+      home: onboardingDone ? HomePage() : OnboardingPage(),
     );
   }
 }
