@@ -10,10 +10,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Mi Sustainability',
       theme: ThemeData.light().copyWith(
-        primaryColor: Colors.orange,
-      ),
+          primaryColor: Colors.orange,
+          appBarTheme: AppBarTheme(
+            color: Colors.orange,
+          )),
       home: HomePage(),
     );
   }
