@@ -13,8 +13,7 @@ Customer _$CustomerFromJson(Map<String, dynamic> json) => Customer(
           .toList(),
     );
 
-Map<String, dynamic> _$CustomerToJson(Customer instance) =>
-    <String, dynamic>{
+Map<String, dynamic> _$CustomerToJson(Customer instance) => <String, dynamic>{
       'id': instance.id,
       'purchases': instance.purchases,
     };
