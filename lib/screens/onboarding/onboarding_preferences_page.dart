@@ -53,7 +53,8 @@ class _OnboardingPreferencesPageState extends State<OnboardingPreferencesPage> {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              Text('We will recommend the most relevent for you'),
+              Text(
+                  'We will use this to recommend the most relevant products for you'),
               SizedBox(
                 height: 40,
               ),
