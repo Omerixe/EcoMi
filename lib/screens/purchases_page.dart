@@ -117,7 +117,10 @@ class _PurchasesPageState extends State<PurchasesPage> {
           } else if (snapshot.hasError) {
             return Text('We have an error :( ${snapshot.error.toString()}');
           } else {
-            return Center(child: CircularProgressIndicator());
+            return Center(
+                child: CircularProgressIndicator(
+              color: kPrimaryColor,
+            ));
           }
         },
       ),
