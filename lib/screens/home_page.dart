@@ -19,7 +19,7 @@ class _HomePageState extends State<HomePage> {
   }
 
   void loadCustomer() async {
-    customer = LocalRepository().fetchCustomer();
+    customer = NetworkRepository().fetchCustomer('cus1');
   }
 
   @override
@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
             var customer = snapshot.data!;
             return Column(children: [
               Text('Hello ${customer.name}!'),
-              Expanded(
+              /*Expanded(
                 child: ListView.builder(
                     itemCount: customer.carts.length,
                     itemBuilder: (BuildContext context, int index) {
@@ -54,7 +54,7 @@ class _HomePageState extends State<HomePage> {
                         ),
                       );
                     }),
-              )
+              )*/
             ]);
           } else if (snapshot.hasError) {
             return Text('We have an error :( ${snapshot.error.toString()}');

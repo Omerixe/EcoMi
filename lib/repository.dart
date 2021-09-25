@@ -6,17 +6,18 @@ import 'package:http/http.dart' as http;
 import 'data/customer.dart';
 
 abstract class Repository {
-  Future<Customer> fetchCustomer();
+  Future<Customer> fetchCustomer(String customerId);
 
   Future<Cart> fetchCart(String customerId, String purchaseId);
 }
 
 class NetworkRepository implements Repository {
-  static const String url = 'https://www.example.com';
+  static const String url = 'https://sustain-api.azurewebsites.net';
 
   @override
-  Future<Customer> fetchCustomer() async {
-    final response = await http.get(Uri.parse(url + '/customer'));
+  Future<Customer> fetchCustomer(String customerId) async {
+    final response =
+        await http.get(Uri.parse(url + '/customer?customer_id=$customerId'));
 
     if (response.statusCode == 200) {
       // If the server did return a 200 OK response,
@@ -47,7 +48,7 @@ class NetworkRepository implements Repository {
 
 class LocalRepository implements Repository {
   @override
-  Future<Customer> fetchCustomer() async {
+  Future<Customer> fetchCustomer(String customerId) async {
     final response = await rootBundle.loadString('assets/customer.json');
     return Customer.fromJson(jsonDecode(response));
   }

@@ -4,11 +4,13 @@ part 'customer.g.dart';
 
 @JsonSerializable()
 class Customer {
-  final String id;
   final String name;
-  final List<Cart> carts;
+  final int age;
+  final int score;
 
-  Customer(this.id, this.name, this.carts);
+  //final List<Cart> carts;
+
+  Customer(this.name, this.age, this.score);
 
   factory Customer.fromJson(Map<String, dynamic> json) =>
       _$CustomerFromJson(json);
