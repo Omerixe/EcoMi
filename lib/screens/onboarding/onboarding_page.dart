@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
+import 'package:mi_sustainability/screens/home_page.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class OnboardingPage extends StatefulWidget {
   @override
@@ -39,8 +41,13 @@ class _OnboardingState extends State<OnboardingPage> {
           image: Image.asset('assets/placeholder.png'),
           decoration: pageDecoration,
           footer: ElevatedButton(
-            onPressed: () {
-              // On button presed
+            onPressed: () async {
+              SharedPreferences prefs = await SharedPreferences.getInstance();
+              prefs.setBool('onboardingDone', true);
+              Navigator.pushReplacement(
+                context,
+                MaterialPageRoute(builder: (context) => HomePage()),
+              );
             },
             child: const Text("Let's Go !"),
           ),

@@ -1,14 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:mi_sustainability/screens/home_page.dart';
+import 'package:mi_sustainability/screens/onboarding/onboarding_page.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import 'colors.dart';
 
-void main() {
+late bool onboardingDone;
+
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  SharedPreferences prefs = await SharedPreferences.getInstance();
+  onboardingDone = prefs.containsKey('onboardingDone');
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -18,7 +24,7 @@ class MyApp extends StatelessWidget {
           appBarTheme: AppBarTheme(
             color: kPrimaryColor,
           )),
-      home: HomePage(),
+      home: onboardingDone ? HomePage() : OnboardingPage(),
     );
   }
 }
