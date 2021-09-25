@@ -5,9 +5,13 @@ part 'customer.g.dart';
 @JsonSerializable()
 class Customer {
   final String id;
+  @JsonKey(name: 'animalwelfare_score')
+  final double animalwelfareScore;
+  @JsonKey(name: 'climate_score')
+  final double climateScore;
   final List<Purchase> purchases;
 
-  Customer(this.id, this.purchases);
+  Customer(this.id, this.animalwelfareScore, this.climateScore, this.purchases);
 
   factory Customer.fromJson(Map<String, dynamic> json) =>
       _$CustomerFromJson(json);
@@ -17,11 +21,14 @@ class Customer {
 
 @JsonSerializable()
 class Purchase {
-  final String timestamp;
   @JsonKey(name: 'unix_timestamp')
   final int unixTimeStamp;
+  @JsonKey(name: 'animalwelfare_score')
+  final double animalwelfareScore;
+  @JsonKey(name: 'climate_score')
+  final double climateScore;
 
-  Purchase(this.timestamp, this.unixTimeStamp);
+  Purchase(this.unixTimeStamp, this.animalwelfareScore, this.climateScore);
 
   factory Purchase.fromJson(Map<String, dynamic> json) =>
       _$PurchaseFromJson(json);

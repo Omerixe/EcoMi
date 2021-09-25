@@ -19,7 +19,7 @@ class _HomePageState extends State<HomePage> {
   }
 
   void loadCustomer() async {
-    customer = NetworkRepository().fetchCustomer('100001');
+    customer = NetworkRepository().fetchCustomer('100688');
   }
 
   @override
@@ -45,8 +45,8 @@ class _HomePageState extends State<HomePage> {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text(
-                                  'Carts: ${customer.purchases[index].timestamp}'),
-                              Text('[score]'
+                                  'Carts: ${customer.purchases[index].unixTimeStamp}'),
+                              Text('${customer.purchases[index].climateScore}'
                                   //'${customer.carts[index].score}',
                                   ),
                             ],
