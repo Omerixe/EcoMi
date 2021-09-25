@@ -1,12 +1,12 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'purchase.dart';
+part of 'cart.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator
 // **************************************************************************
 
-Purchase _$PurchaseFromJson(Map<String, dynamic> json) => Purchase(
+Cart _$CartFromJson(Map<String, dynamic> json) => Cart(
       json['id'] as String,
       (json['products'] as List<dynamic>)
           .map((e) => Product.fromJson(e as Map<String, dynamic>))
@@ -14,7 +14,7 @@ Purchase _$PurchaseFromJson(Map<String, dynamic> json) => Purchase(
       json['score'] as int,
     );
 
-Map<String, dynamic> _$PurchaseToJson(Purchase instance) => <String, dynamic>{
+Map<String, dynamic> _$CartToJson(Cart instance) => <String, dynamic>{
       'id': instance.id,
       'products': instance.products,
       'score': instance.score,

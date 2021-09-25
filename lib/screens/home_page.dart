@@ -35,15 +35,14 @@ class _HomePageState extends State<HomePage> {
               Text('Hello user!'),
               Expanded(
                 child: ListView.builder(
-                    itemCount: snapshot.data!.purchases.length,
+                    itemCount: snapshot.data!.carts.length,
                     itemBuilder: (BuildContext context, int index) {
-                      return Text(
-                          'Purchase: ${snapshot.data!.purchases[index].id}');
+                      return Text('Carts: ${snapshot.data!.carts[index].id}');
                     }),
               )
             ]);
           } else if (snapshot.hasError) {
-            return Text('We have an error :(');
+            return Text('We have an error :( ${snapshot.error.toString()}');
           } else {
             return Text('Loading...');
           }

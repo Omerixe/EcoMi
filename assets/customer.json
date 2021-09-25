@@ -1,6 +1,6 @@
 {
   "id": "customer1",
-  "purchases": [
+  "carts": [
     {
       "id": "p1",
       "score": 2

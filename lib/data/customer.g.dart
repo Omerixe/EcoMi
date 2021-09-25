@@ -8,22 +8,22 @@ part of 'customer.dart';
 
 Customer _$CustomerFromJson(Map<String, dynamic> json) => Customer(
       json['id'] as String,
-      (json['purchases'] as List<dynamic>)
-          .map((e) => Purchase.fromJson(e as Map<String, dynamic>))
+      (json['carts'] as List<dynamic>)
+          .map((e) => Cart.fromJson(e as Map<String, dynamic>))
           .toList(),
     );
 
 Map<String, dynamic> _$CustomerToJson(Customer instance) => <String, dynamic>{
       'id': instance.id,
-      'purchases': instance.purchases,
+      'carts': instance.carts,
     };
 
-Purchase _$PurchaseFromJson(Map<String, dynamic> json) => Purchase(
+Cart _$CartFromJson(Map<String, dynamic> json) => Cart(
       json['id'] as String,
       json['score'] as int,
     );
 
-Map<String, dynamic> _$PurchaseToJson(Purchase instance) => <String, dynamic>{
+Map<String, dynamic> _$CartToJson(Cart instance) => <String, dynamic>{
       'id': instance.id,
       'score': instance.score,
     };

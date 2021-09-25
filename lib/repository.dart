@@ -8,7 +8,7 @@ import 'data/customer.dart';
 abstract class Repository {
   Future<Customer> fetchCustomer();
 
-  Future<Purchase> fetchPurchase(String customerId, String purchaseId);
+  Future<Cart> fetchCart(String customerId, String purchaseId);
 }
 
 class NetworkRepository implements Repository {
@@ -25,22 +25,22 @@ class NetworkRepository implements Repository {
     } else {
       // If the server did not return a 200 OK response,
       // then throw an exception.
-      throw Exception('Failed to load album');
+      throw Exception('Failed to load customer');
     }
   }
 
   @override
-  Future<Purchase> fetchPurchase(String customerId, String purchaseId) async {
-    final response = await http.get(Uri.parse(url + '/purchase'));
+  Future<Cart> fetchCart(String customerId, String purchaseId) async {
+    final response = await http.get(Uri.parse(url + '/cart'));
 
     if (response.statusCode == 200) {
       // If the server did return a 200 OK response,
       // then parse the JSON.
-      return Purchase.fromJson(jsonDecode(response.body));
+      return Cart.fromJson(jsonDecode(response.body));
     } else {
       // If the server did not return a 200 OK response,
       // then throw an exception.
-      throw Exception('Failed to load album');
+      throw Exception('Failed to load cart');
     }
   }
 }
@@ -53,8 +53,8 @@ class LocalRepository implements Repository {
   }
 
   @override
-  Future<Purchase> fetchPurchase(String customerId, String purchaseId) async {
-    final response = await rootBundle.loadString('assets/purchase.json');
-    return Purchase.fromJson(jsonDecode(response));
+  Future<Cart> fetchCart(String customerId, String purchaseId) async {
+    final response = await rootBundle.loadString('assets/cart.json');
+    return Cart.fromJson(jsonDecode(response));
   }
 }
