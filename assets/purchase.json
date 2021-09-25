@@ -1,0 +1,16 @@
+{
+  "id": "p1",
+  "score": 2,
+  "products": [
+    {
+      "id": "p1",
+      "name": "product1",
+      "score": 2
+    },
+    {
+      "id": "p2",
+      "name": "product2",
+      "score": 2
+    }
+  ]
+}
