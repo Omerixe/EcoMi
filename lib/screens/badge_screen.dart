@@ -25,7 +25,7 @@ class BadgeScreen extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    'Let’s grow your plant together with a greener mind ',
+                    'Let’s create a more sustainable future together !',
                     textAlign: TextAlign.center,
                   ),
                 ],
