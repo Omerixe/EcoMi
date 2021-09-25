@@ -20,10 +20,16 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Mi Sustainability',
       theme: ThemeData.light().copyWith(
-          primaryColor: kPrimaryColor,
-          appBarTheme: AppBarTheme(
-            color: kPrimaryColor,
-          )),
+        primaryColor: kPrimaryColor,
+        appBarTheme: AppBarTheme(
+          color: kPrimaryColor,
+        ),
+        elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ElevatedButton.styleFrom(
+            primary: kPrimaryColor,
+          ),
+        ),
+      ),
       home: onboardingDone ? HomePage() : OnboardingPage(),
     );
   }
