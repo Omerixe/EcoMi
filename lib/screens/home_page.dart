@@ -26,8 +26,6 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    var motivIdx = 0;
-
     String _getDateFromUnix(int timestamp) {
       var dt = DateTime.fromMillisecondsSinceEpoch(timestamp);
       return DateFormat('d. MMMM yyyy').format(dt);
