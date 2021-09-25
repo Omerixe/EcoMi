@@ -26,12 +26,22 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return SafeArea(
         child: Scaffold(
-          appBar: AppBar(title: Text('Mi Sustainability')),
+      appBar: AppBar(title: Text('Mi Sustainability')),
       body: FutureBuilder<Customer>(
         future: customer,
         builder: (BuildContext context, AsyncSnapshot<Customer> snapshot) {
           if (snapshot.hasData) {
-            return Text('We have data!');
+            return Column(children: [
+              Text('Hello user!'),
+              Expanded(
+                child: ListView.builder(
+                    itemCount: snapshot.data!.purchases.length,
+                    itemBuilder: (BuildContext context, int index) {
+                      return Text(
+                          'Purchase: ${snapshot.data!.purchases[index].id}');
+                    }),
+              )
+            ]);
           } else if (snapshot.hasError) {
             return Text('We have an error :(');
           } else {
