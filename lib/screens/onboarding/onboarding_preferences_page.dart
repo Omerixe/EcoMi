@@ -3,6 +3,7 @@ import 'package:mi_sustainability/screens/badge_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../colors.dart';
+import '../../repository.dart';
 
 class OnboardingPreferencesPage extends StatefulWidget {
   @override
@@ -161,6 +162,11 @@ class _OnboardingPreferencesPageState extends State<OnboardingPreferencesPage> {
                     onPressed: () async {
                       var prefs = await SharedPreferences.getInstance();
                       prefs.setBool('onboardingDone', true);
+                      NetworkRepository().customize(
+                          '100688',
+                          _currentCo2SliderValue,
+                          _currentWaterSliderValue,
+                          _currentAnimalSliderValue);
                       Navigator.pushReplacement(
                         context,
                         MaterialPageRoute(builder: (context) => BadgeScreen()),

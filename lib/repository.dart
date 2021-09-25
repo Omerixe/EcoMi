@@ -9,6 +9,8 @@ abstract class Repository {
   Future<Customer> fetchCustomer(String customerId);
 
   Future<Purchase> fetchCart(String customerId, String purchaseId);
+
+  void customize(String customerId, double co2, double water, double animal);
 }
 
 class NetworkRepository implements Repository {
@@ -44,6 +46,18 @@ class NetworkRepository implements Repository {
       throw Exception('Failed to load cart');
     }
   }
+
+  @override
+  void customize(
+      String customerId, double co2, double water, double animal) async {
+    final response = await http.post(Uri.parse(url +
+        '/score/customization?customer_id=$customerId&footprint=$co2&water=$water&animals=$animal'));
+    if (response.statusCode != 200) {
+      // If the server did not return a 200 OK response,
+      // then throw an exception.
+      throw Exception('Failed to submit customization cart');
+    }
+  }
 }
 
 class LocalRepository implements Repository {
@@ -58,4 +72,7 @@ class LocalRepository implements Repository {
     final response = await rootBundle.loadString('assets/cart.json');
     return Purchase.fromJson(jsonDecode(response));
   }
+
+  @override
+  void customize(String customerId, double co2, double water, double animal) {}
 }
