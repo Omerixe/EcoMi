@@ -1,0 +1,216 @@
+{
+  "bad": [
+    {
+      "id": "232102082000",
+      "image": {
+        "original": "https://image.migros.ch/original/5b154e934b7d5210fa02da6f4fcdeee2b81c9eb2/m-classic-bauernsalami-geschnitten.jpg"
+      },
+      "m_check2": {
+        "animal_welfare": {
+          "image": {
+            "original": "https://image.migros.ch/original/b579eda0e9ab760bfd6b8538092c48ba03262644.svg",
+            "stack": "https://image.migros.ch/{stack}/b579eda0e9ab760bfd6b8538092c48ba03262644.svg"
+          },
+          "label": "Tierwohl",
+          "rating": 3
+        },
+        "carbon_footprint": {
+          "ground_and_sea_cargo": {
+            "co2_in_car_km": 42,
+            "kg_co2": 7.599,
+            "kg_co2_range": "4.8 - 9.9 kg CO₂eq / kg",
+            "packaging_in_percent": 2,
+            "production_in_percent": 97,
+            "rating": 2,
+            "transport_in_percent": 0
+          },
+          "image": {
+            "original": "https://image.migros.ch/original/22a91c7da0c7e9d31c07dcd9af58cc97079ac68b.svg",
+            "stack": "https://image.migros.ch/{stack}/22a91c7da0c7e9d31c07dcd9af58cc97079ac68b.svg"
+          }
+        }
+      },
+      "name": "M-Classic Bauernsalami geschnitten",
+      "price": {}
+    },
+    {
+      "id": "220220040000",
+      "image": {
+        "original": "https://image.migros.ch/original/2e2985957352bbe540d3b781f9d2e6db34fd0dc5/m-classic-rinds-hackfleisch.jpg"
+      },
+      "m_check2": {
+        "animal_welfare": {
+          "image": {
+            "original": "https://image.migros.ch/original/b579eda0e9ab760bfd6b8538092c48ba03262644.svg",
+            "stack": "https://image.migros.ch/{stack}/b579eda0e9ab760bfd6b8538092c48ba03262644.svg"
+          },
+          "label": "Tierwohl",
+          "rating": 3
+        },
+        "carbon_footprint": {
+          "ground_and_sea_cargo": {
+            "co2_in_car_km": 132,
+            "kg_co2": 23.769,
+            "kg_co2_range": "≥10 kg CO₂eq / kg",
+            "packaging_in_percent": 1,
+            "production_in_percent": 99,
+            "rating": 1,
+            "transport_in_percent": 0
+          },
+          "image": {
+            "original": "https://image.migros.ch/original/9d08323177e1c1049855a7fb5c9e524f3c31b8fc.svg",
+            "stack": "https://image.migros.ch/{stack}/9d08323177e1c1049855a7fb5c9e524f3c31b8fc.svg"
+          }
+        }
+      },
+      "name": "M-Classic Rinds Hackfleisch",
+      "price": {}
+    },
+    {
+      "id": "241110501000",
+      "image": {
+        "original": "https://image.migros.ch/original/f2036006ad46e8b4fe918614cfd2e076cf82bb63/poulet-brustschnitzel.jpg"
+      },
+      "m_check2": {
+        "animal_welfare": {
+          "image": {
+            "original": "https://image.migros.ch/original/b579eda0e9ab760bfd6b8538092c48ba03262644.svg",
+            "stack": "https://image.migros.ch/{stack}/b579eda0e9ab760bfd6b8538092c48ba03262644.svg"
+          },
+          "label": "Tierwohl",
+          "rating": 3
+        },
+        "carbon_footprint": {
+          "ground_and_sea_cargo": {
+            "co2_in_car_km": 33,
+            "kg_co2": 6.04,
+            "kg_co2_range": "4.8 - 9.9 kg CO₂eq / kg",
+            "packaging_in_percent": 2.86,
+            "production_in_percent": 94.32,
+            "rating": 2,
+            "transport_in_percent": 2.81
+          },
+          "image": {
+            "original": "https://image.migros.ch/original/22a91c7da0c7e9d31c07dcd9af58cc97079ac68b.svg",
+            "stack": "https://image.migros.ch/{stack}/22a91c7da0c7e9d31c07dcd9af58cc97079ac68b.svg"
+          }
+        }
+      },
+      "name": "Poulet Brustschnitzel",
+      "price": {
+        "item": {
+          "price": 2.8
+        }
+      }
+    }
+  ],
+  "good": [
+    {
+      "id": "241102765000",
+      "image": {
+        "original": "https://image.migros.ch/original/9ec33ab474cdc1129ade9b597e9aeee5472148ab/poulet-minifilet.jpg"
+      },
+      "m_check2": {
+        "animal_welfare": {
+          "image": {
+            "original": "https://image.migros.ch/original/e780c432db35d5fc23c70eaae29bfe7f0ef3e15a.svg",
+            "stack": "https://image.migros.ch/{stack}/e780c432db35d5fc23c70eaae29bfe7f0ef3e15a.svg"
+          },
+          "label": "Tierwohl",
+          "rating": 4
+        },
+        "carbon_footprint": {
+          "ground_and_sea_cargo": {
+            "co2_in_car_km": 23,
+            "kg_co2": 4.14,
+            "kg_co2_range": "2 - 4.7 kg CO₂eq / kg",
+            "packaging_in_percent": 4.18,
+            "production_in_percent": 91.72,
+            "rating": 3,
+            "transport_in_percent": 4.1
+          },
+          "image": {
+            "original": "https://image.migros.ch/original/b32b6bbf2bf64dd1badce8c518c6721e7d32da4c.svg",
+            "stack": "https://image.migros.ch/{stack}/b32b6bbf2bf64dd1badce8c518c6721e7d32da4c.svg"
+          }
+        }
+      },
+      "name": "Poulet Minifilet",
+      "price": {}
+    },
+    {
+      "id": "220220030020",
+      "image": {
+        "original": "https://image.migros.ch/original/6973744cad195286fed166854c06890a067a897a/bio-rindshackfleisch.jpg"
+      },
+      "m_check2": {
+        "animal_welfare": {
+          "image": {
+            "original": "https://image.migros.ch/original/e780c432db35d5fc23c70eaae29bfe7f0ef3e15a.svg",
+            "stack": "https://image.migros.ch/{stack}/e780c432db35d5fc23c70eaae29bfe7f0ef3e15a.svg"
+          },
+          "label": "Tierwohl",
+          "rating": 4
+        },
+        "carbon_footprint": {
+          "ground_and_sea_cargo": {
+            "co2_in_car_km": 132,
+            "kg_co2": 23.769,
+            "kg_co2_range": "≥10 kg CO₂eq / kg",
+            "packaging_in_percent": 1,
+            "production_in_percent": 99,
+            "rating": 1,
+            "transport_in_percent": 0
+          },
+          "image": {
+            "original": "https://image.migros.ch/original/9d08323177e1c1049855a7fb5c9e524f3c31b8fc.svg",
+            "stack": "https://image.migros.ch/{stack}/9d08323177e1c1049855a7fb5c9e524f3c31b8fc.svg"
+          }
+        }
+      },
+      "name": "Bio Rindshackfleisch",
+      "price": {
+        "item": {
+          "price": 2.2
+        }
+      }
+    },
+    {
+      "id": "232300185300",
+      "image": {
+        "original": "https://image.migros.ch/original/22001bbd4259948e585c58cfad52f5d8a1243e1f/bio-salami-geschnitten.jpg"
+      },
+      "m_check2": {
+        "animal_welfare": {
+          "image": {
+            "original": "https://image.migros.ch/original/f86d3563a7fd5eec3fdca51cffd4a821bb580369.svg",
+            "stack": "https://image.migros.ch/{stack}/f86d3563a7fd5eec3fdca51cffd4a821bb580369.svg"
+          },
+          "label": "Tierwohl",
+          "rating": 5
+        },
+        "carbon_footprint": {
+          "ground_and_sea_cargo": {
+            "co2_in_car_km": 42,
+            "kg_co2": 7.599,
+            "kg_co2_range": "4.8 - 9.9 kg CO₂eq / kg",
+            "packaging_in_percent": 2,
+            "production_in_percent": 97,
+            "rating": 2,
+            "transport_in_percent": 0
+          },
+          "image": {
+            "original": "https://image.migros.ch/original/22a91c7da0c7e9d31c07dcd9af58cc97079ac68b.svg",
+            "stack": "https://image.migros.ch/{stack}/22a91c7da0c7e9d31c07dcd9af58cc97079ac68b.svg"
+          }
+        }
+      },
+      "name": "Bio Salami geschnitten",
+      "price": {
+        "item": {
+          "price": 5.7
+        }
+      }
+    }
+  ]
+}

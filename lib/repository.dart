@@ -96,7 +96,8 @@ class LocalRepository implements Repository {
   void customize(String customerId, double co2, double water, double animal) {}
 
   @override
-  Future<Recommendations> fetchRecommendations() {
-    throw UnimplementedError();
+  Future<Recommendations> fetchRecommendations() async {
+    final response = await rootBundle.loadString('assets/recommendations.json');
+    return Recommendations.fromJson(jsonDecode(response));
   }
 }

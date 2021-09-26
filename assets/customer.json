@@ -1,14 +1,959 @@
 {
-  "id": "customer1",
-  "name": "Susan",
-  "carts": [
+  "animalwelfare_score": 1.0590498407605957,
+  "climate_score": 3.4734017470532037,
+  "id": "100688",
+  "purchases": [
     {
-      "id": "p1",
-      "score": 2
+      "animalwelfare_score": 0.4310515873015874,
+      "climate_score": 2.9811056998557,
+      "products": [
+        {
+          "amount": "0.853",
+          "animalwelfare_rating": 3,
+          "climate_rating": 2,
+          "name": "M-Budget Schweinsragout",
+          "product_id": "220622085000"
+        },
+        {
+          "amount": "2.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 0,
+          "name": "Meridol Zahnpasta Sanftes Weiss",
+          "product_id": "514161300000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 4,
+          "climate_rating": 2,
+          "name": "Speckwürfeli",
+          "product_id": "233520185710"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 4,
+          "name": "Bio Mister Rice Carnaroli",
+          "product_id": "104404600000"
+        },
+        {
+          "amount": "0.921",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Karotten",
+          "product_id": "274502501000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 4,
+          "name": "Bon Chef Currysauce Madras",
+          "product_id": "106506600000"
+        },
+        {
+          "amount": "0.571",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Romanesco",
+          "product_id": "275702302100"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 0,
+          "name": "Zoé Gold Serum",
+          "product_id": "513341800000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 4,
+          "name": "Bio Mister Rice Carolina parb. 10min",
+          "product_id": "104403200000"
+        },
+        {
+          "amount": "2.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 4,
+          "name": "Bon Chef Currysauce",
+          "product_id": "106506500000"
+        },
+        {
+          "amount": "2.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 3,
+          "name": "M-Classic Kuchenteig ausgewallt rund",
+          "product_id": "115012000000"
+        },
+        {
+          "amount": "0.528",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Anna's Best Randen gedämpft geschält",
+          "product_id": "131120100000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Eisbergsalat",
+          "product_id": "271102509200"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 0,
+          "name": "Zoé Revital Tonic",
+          "product_id": "526605200000"
+        },
+        {
+          "amount": "2.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 4,
+          "name": "Bifidus Nature",
+          "product_id": "205203800000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 0,
+          "name": "BiC 3 Action Einwegrasierer",
+          "product_id": "511721800000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Kartoffeln festkochend",
+          "product_id": "274460003300"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "M-Budget Asia Gemüsemischung",
+          "product_id": "161645600000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 3,
+          "climate_rating": 3,
+          "name": "Valflora Kaffeerahm",
+          "product_id": "204126000000"
+        },
+        {
+          "amount": "0.303",
+          "animalwelfare_rating": 0,
+          "climate_rating": 1,
+          "name": "Lamm Nierstück",
+          "product_id": "220860010892"
+        }
+      ],
+      "unix_timestamp": 1578126924000
     },
     {
-      "id": "p2",
-      "score": 4
+      "animalwelfare_score": 1.2789592925528028,
+      "climate_score": 4.013374260030696,
+      "products": [
+        {
+          "amount": "2.000",
+          "animalwelfare_rating": 3,
+          "climate_rating": 4,
+          "name": "M-Classic Joghurt Ananas",
+          "product_id": "205078000000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 3,
+          "climate_rating": 2,
+          "name": "M-Budget Hinterschinken",
+          "product_id": "231502083302"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Peperoni gemischt",
+          "product_id": "271708513200"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 4,
+          "name": "Blévita Thymian-Meersalz",
+          "product_id": "110177500000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Clementinen",
+          "product_id": "263405508500"
+        },
+        {
+          "amount": "3.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 4,
+          "name": "Bon Chef Currysauce Madras",
+          "product_id": "106506600000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 3,
+          "climate_rating": 2,
+          "name": "Emmentaler & Gruyère gerieben",
+          "product_id": "210133000000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 3,
+          "climate_rating": 2,
+          "name": "M-Budget Mozzarella",
+          "product_id": "200609600000"
+        },
+        {
+          "amount": "0.629",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Fenchel",
+          "product_id": "274800501000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 3,
+          "name": "Anna's Best Pizzateig ausgewallt",
+          "product_id": "115053100000"
+        },
+        {
+          "amount": "2.000",
+          "animalwelfare_rating": 4,
+          "climate_rating": 4,
+          "name": "Valflora M-Drink UHT IP-Suisse",
+          "product_id": "204020200000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Condy Gewürzgurken",
+          "product_id": "156010000000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Eichblattsalat rot",
+          "product_id": "270800813200"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Mifloc Kartoffelstock",
+          "product_id": "104476300000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Champignons weiss",
+          "product_id": "271802202300"
+        },
+        {
+          "amount": "0.737",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Karotten",
+          "product_id": "274502501000"
+        },
+        {
+          "amount": "2.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 4,
+          "name": "Bifidus Nature",
+          "product_id": "205203800000"
+        },
+        {
+          "amount": "2.000",
+          "animalwelfare_rating": 3,
+          "climate_rating": 4,
+          "name": "M-Classic Joghurt Haselnuss",
+          "product_id": "205077800000"
+        },
+        {
+          "amount": "2.000",
+          "animalwelfare_rating": 3,
+          "climate_rating": 3,
+          "name": "Valflora Kaffeerahm",
+          "product_id": "204126000000"
+        },
+        {
+          "amount": "2.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Eisbergsalat",
+          "product_id": "271102509200"
+        }
+      ],
+      "unix_timestamp": 1578731485000
+    },
+    {
+      "animalwelfare_score": 1.0764135663693284,
+      "climate_score": 3.119152948002031,
+      "products": [
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 3,
+          "name": "Bio Thymian getrocknet",
+          "product_id": "106286700000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Eisbergsalat",
+          "product_id": "271102509200"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 3,
+          "name": "Klostergarten Brusttee",
+          "product_id": "107065200000"
+        },
+        {
+          "amount": "2.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 0,
+          "name": "Thai Kitchen Kokosnussmilch",
+          "product_id": "158575900000"
+        },
+        {
+          "amount": "2.000",
+          "animalwelfare_rating": 3,
+          "climate_rating": 2,
+          "name": "Emmentaler & Gruyère gerieben",
+          "product_id": "210133000000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 4,
+          "climate_rating": 4,
+          "name": "Valflora M-Drink UHT IP-Suisse",
+          "product_id": "204020200000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 3,
+          "name": "Luzerner Birnweggen",
+          "product_id": "113642600000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 4,
+          "name": "M-Classic Dressing French",
+          "product_id": "106623000000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 0,
+          "name": "Zoé Gold Tagescreme",
+          "product_id": "513341600000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Eichblattsalat rot",
+          "product_id": "270800813200"
+        },
+        {
+          "amount": "2.000",
+          "animalwelfare_rating": 3,
+          "climate_rating": 4,
+          "name": "M-Classic Joghurt Rhabarber/Vanille",
+          "product_id": "205078700000"
+        },
+        {
+          "amount": "0.243",
+          "animalwelfare_rating": 4,
+          "climate_rating": 2,
+          "name": "Hinterschinken",
+          "product_id": "231502055510"
+        },
+        {
+          "amount": "1.532",
+          "animalwelfare_rating": 3,
+          "climate_rating": 2,
+          "name": "Raccard Nature Maxi Block",
+          "product_id": "210414028000"
+        },
+        {
+          "amount": "2.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 4,
+          "name": "Jogurt Apfel",
+          "product_id": "205017300200"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "M-Classic Toast Rustico",
+          "product_id": "111281400000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 3,
+          "name": "Anna's Best Pizzateig ausgewallt",
+          "product_id": "115053100000"
+        },
+        {
+          "amount": "2.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 4,
+          "name": "M-Classic HOLL-Rapsöl",
+          "product_id": "103322000000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Knoblauch",
+          "product_id": "277000513200"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 0,
+          "name": "Zoé Gold Nachtcreme",
+          "product_id": "513341700000"
+        },
+        {
+          "amount": "1.240",
+          "animalwelfare_rating": 4,
+          "climate_rating": 3,
+          "name": "Optigal Poulet im Bratbeutel",
+          "product_id": "241002200000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 0,
+          "name": "Kiwis",
+          "product_id": "264400504200"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 4,
+          "name": "Salbisan Halspastillen Salbeigeschmack",
+          "product_id": "101067600000"
+        },
+        {
+          "amount": "0.479",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Bananen",
+          "product_id": "264200301000"
+        },
+        {
+          "amount": "2.000",
+          "animalwelfare_rating": 3,
+          "climate_rating": 4,
+          "name": "M-Classic Joghurt Erdbeer",
+          "product_id": "205077500000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 3,
+          "climate_rating": 2,
+          "name": "M-Classic Mettwurst Mini 2 Stück",
+          "product_id": "233724012000"
+        },
+        {
+          "amount": "2.000",
+          "animalwelfare_rating": 3,
+          "climate_rating": 3,
+          "name": "M-Classic Quark Himbeere",
+          "product_id": "200809300000"
+        },
+        {
+          "amount": "0.500",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Anna's Best Randen gedämpft geschält",
+          "product_id": "131120100000"
+        },
+        {
+          "amount": "0.452",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Pak-Choi",
+          "product_id": "276701702100"
+        },
+        {
+          "amount": "2.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 4,
+          "name": "Bifidus Nature",
+          "product_id": "205203800000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Kohlrabi",
+          "product_id": "276600513200"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 0,
+          "name": "Galbani Ricotta",
+          "product_id": "212684200000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 3,
+          "name": "Bio Klostergarten Thymiankraut",
+          "product_id": "107060600000"
+        },
+        {
+          "amount": "0.921",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Karotten",
+          "product_id": "274502501000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 3,
+          "name": "Berliner",
+          "product_id": "114013700000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 3,
+          "climate_rating": 3,
+          "name": "Valflora Kaffeerahm",
+          "product_id": "204126000000"
+        }
+      ],
+      "unix_timestamp": 1579338268000
+    },
+    {
+      "animalwelfare_score": 1.2155302801137395,
+      "climate_score": 3.6909371407828666,
+      "products": [
+        {
+          "amount": "0.490",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Romanesco",
+          "product_id": "275702302100"
+        },
+        {
+          "amount": "2.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Eisbergsalat",
+          "product_id": "271102509200"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 4,
+          "name": "Terrasuisse Schweizer Rapsöl",
+          "product_id": "103334600000"
+        },
+        {
+          "amount": "0.875",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Karotten",
+          "product_id": "274502501000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 0,
+          "name": "Cleverbag Herkules Kehrichtsäcke 60L",
+          "product_id": "705916900000"
+        },
+        {
+          "amount": "0.369",
+          "animalwelfare_rating": 3,
+          "climate_rating": 2,
+          "name": "M-Budget Schweins-Nierstück Plätzli",
+          "product_id": "220660085000"
+        },
+        {
+          "amount": "4.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 4,
+          "name": "Bifidus Nature",
+          "product_id": "205203800000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 0,
+          "name": "Cleverbag Herkules Kehrichtsäcke 110L",
+          "product_id": "705945600000"
+        },
+        {
+          "amount": "0.714",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Weisskabis",
+          "product_id": "276709101000"
+        },
+        {
+          "amount": "0.304",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Datteln frisch",
+          "product_id": "264601302100"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Champignons weiss",
+          "product_id": "271802202300"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 4,
+          "name": "Bon Chef Bratensauce gebunden",
+          "product_id": "106502800000"
+        },
+        {
+          "amount": "0.492",
+          "animalwelfare_rating": 3,
+          "climate_rating": 1,
+          "name": "M-Classic Rinds Hackfleisch",
+          "product_id": "220220040000"
+        },
+        {
+          "amount": "2.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 4,
+          "name": "M-Classic Carolina Trockenreis",
+          "product_id": "104404000000"
+        },
+        {
+          "amount": "2.000",
+          "animalwelfare_rating": 3,
+          "climate_rating": 4,
+          "name": "M-Classic Joghurt Ananas",
+          "product_id": "205078000000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 3,
+          "name": "Snack Rindfleischstreifen",
+          "product_id": "109245200000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Blondorangen",
+          "product_id": "263330108400"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Eichblattsalat rot",
+          "product_id": "270800813200"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Kartoffeln festkochend",
+          "product_id": "274460003300"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Extra Rosenkohl geputzt",
+          "product_id": "276501508400"
+        },
+        {
+          "amount": "0.414",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Fenchel",
+          "product_id": "274800501000"
+        },
+        {
+          "amount": "2.000",
+          "animalwelfare_rating": 3,
+          "climate_rating": 4,
+          "name": "M-Classic Joghurt Apfel/Mango",
+          "product_id": "205078200000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 4,
+          "climate_rating": 2,
+          "name": "Speckwürfeli",
+          "product_id": "233520185710"
+        },
+        {
+          "amount": "2.000",
+          "animalwelfare_rating": 3,
+          "climate_rating": 4,
+          "name": "M-Classic Joghurt Erdbeer",
+          "product_id": "205077500000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 5,
+          "climate_rating": 3,
+          "name": "Bio Eier Schweiz Freiland, 6x53g+",
+          "product_id": "196045000600"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 3,
+          "climate_rating": 3,
+          "name": "Valflora Kaffeerahm",
+          "product_id": "204126000000"
+        },
+        {
+          "amount": "0.400",
+          "animalwelfare_rating": 4,
+          "climate_rating": 2,
+          "name": "Schweinskotelette IP Suisse",
+          "product_id": "220654010011"
+        },
+        {
+          "amount": "2.000",
+          "animalwelfare_rating": 3,
+          "climate_rating": 2,
+          "name": "Le Gruyère gerieben",
+          "product_id": "210134200000"
+        }
+      ],
+      "unix_timestamp": 1579939598000
+    },
+    {
+      "animalwelfare_score": 1.2932944774655202,
+      "climate_score": 3.5624386865947257,
+      "products": [
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Farmer Plus Crunchy Fibre",
+          "product_id": "104211500000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 3,
+          "name": "Petit Beurre",
+          "product_id": "110102500000"
+        },
+        {
+          "amount": "1.026",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Karotten",
+          "product_id": "274502501000"
+        },
+        {
+          "amount": "0.927",
+          "animalwelfare_rating": 4,
+          "climate_rating": 1,
+          "name": "Kalbsvoressen IP Suisse",
+          "product_id": "220422030011"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 3,
+          "name": "Marmor-Butter Rosetten",
+          "product_id": "110110300000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 5,
+          "climate_rating": 3,
+          "name": "Bio Eier Schweiz Freiland, 6x53g+",
+          "product_id": "196045000600"
+        },
+        {
+          "amount": "3.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 4,
+          "name": "Bifidus Nature",
+          "product_id": "205203800000"
+        },
+        {
+          "amount": "2.000",
+          "animalwelfare_rating": 3,
+          "climate_rating": 3,
+          "name": "Valflora Kaffeerahm",
+          "product_id": "204126000000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 4,
+          "climate_rating": 4,
+          "name": "Valflora Milch UHT IP-Suisse",
+          "product_id": "204016200000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Farmer Plus Crunchy Mix",
+          "product_id": "104211700000"
+        },
+        {
+          "amount": "0.505",
+          "animalwelfare_rating": 3,
+          "climate_rating": 2,
+          "name": "Le Gruyère Surchoix",
+          "product_id": "210140024000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Bio Zitrone",
+          "product_id": "263580313200"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 3,
+          "name": "Haselnussmakronen",
+          "product_id": "110109500000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Eisbergsalat",
+          "product_id": "271102509200"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Cherrytomaten gemischt",
+          "product_id": "271402502400"
+        },
+        {
+          "amount": "3.000",
+          "animalwelfare_rating": 3,
+          "climate_rating": 2,
+          "name": "Emmentaler & Gruyère gerieben",
+          "product_id": "210133000000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 3,
+          "name": "M-Classic Mandelscheiben",
+          "product_id": "105333300000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 4,
+          "name": "Tradition Sablé mit Mandeln gesalzen",
+          "product_id": "110119200000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 0,
+          "name": "Potz Shower",
+          "product_id": "502031400000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 0,
+          "name": "Mini Salatsossä French",
+          "product_id": "130600800000"
+        },
+        {
+          "amount": "2.000",
+          "animalwelfare_rating": 3,
+          "climate_rating": 4,
+          "name": "M-Classic Joghurt Rhabarber/Vanille",
+          "product_id": "205078700000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Kohlrabi",
+          "product_id": "276600513200"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 3,
+          "climate_rating": 3,
+          "name": "Valflora Vollrahm UHT",
+          "product_id": "204111200000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Kartoffeln mehligkochend",
+          "product_id": "274450003300"
+        },
+        {
+          "amount": "0.200",
+          "animalwelfare_rating": 3,
+          "climate_rating": 2,
+          "name": "Tilsiter mild",
+          "product_id": "210406024000"
+        },
+        {
+          "amount": "1.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Bio Nüsslisalat",
+          "product_id": "270880209600"
+        },
+        {
+          "amount": "2.000",
+          "animalwelfare_rating": 3,
+          "climate_rating": 4,
+          "name": "M-Classic Joghurt Heidelbeer",
+          "product_id": "205077600000"
+        },
+        {
+          "amount": "2.000",
+          "animalwelfare_rating": 0,
+          "climate_rating": 5,
+          "name": "Blondorangen",
+          "product_id": "263330108400"
+        }
+      ],
+      "unix_timestamp": 1580545636000
     }
   ]
 }
