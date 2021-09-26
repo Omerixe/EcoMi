@@ -1,16 +1,11 @@
-# mi_sustainability
+# EcoMi
 
-Make the Migros shopping experience more sustainable
+Create a sustainable future with Migros
 
-## Getting Started
+## This app
+The app was implemented for the Migros workshop in HackZurich 2021.
+It is built with Flutter and runs on iOS and Android devices. It can also be used from the web but is not optimized for big screens.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+For more information visit EcoMi on Devpost (link follows)
