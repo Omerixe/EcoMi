@@ -100,51 +100,60 @@ class _HistoryPageState extends State<HistoryPage> {
                                 ),
                               ),
                               Expanded(
-                                child: Card(
-                                  shape: RoundedRectangleBorder(
-                                    side: BorderSide(
-                                      color: Colors.green,
-                                      width: 3.0,
+                                child: Stack(children: [
+                                  Card(
+                                    shape: RoundedRectangleBorder(
+                                      side: BorderSide(
+                                        color: Colors.green,
+                                        width: 3.0,
+                                      ),
+                                      borderRadius: BorderRadius.circular(15.0),
                                     ),
-                                    borderRadius: BorderRadius.circular(15.0),
-                                  ),
-                                  child: Padding(
-                                    padding: const EdgeInsets.all(8.0),
-                                    child: Column(
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          height: 100,
-                                          width: 100,
-                                          child: Image.network(
-                                            recom.good[2].image.original,
-                                            fit: BoxFit.scaleDown,
+                                    child: Padding(
+                                      padding: const EdgeInsets.all(8.0),
+                                      child: Column(
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.center,
+                                        children: [
+                                          Container(
+                                            height: 100,
+                                            width: 100,
+                                            child: Image.network(
+                                              recom.good[2].image.original,
+                                              fit: BoxFit.scaleDown,
+                                            ),
                                           ),
-                                        ),
-                                        Text(recom.good[2].name + '\n'),
-                                        Row(
-                                          mainAxisAlignment:
-                                              MainAxisAlignment.center,
-                                          children: [
-                                            Container(
-                                              height: 50,
-                                              width: 50,
-                                              child: SvgPicture.asset(
-                                                  'assets/clima_1.svg'),
-                                            ),
-                                            Container(
-                                              height: 50,
-                                              width: 50,
-                                              child: SvgPicture.asset(
-                                                  'assets/animal_4.svg'),
-                                            ),
-                                          ],
-                                        )
-                                      ],
+                                          Text(recom.good[2].name + '\n'),
+                                          Row(
+                                            mainAxisAlignment:
+                                                MainAxisAlignment.center,
+                                            children: [
+                                              Container(
+                                                height: 50,
+                                                width: 50,
+                                                child: SvgPicture.asset(
+                                                    'assets/clima_1.svg'),
+                                              ),
+                                              Container(
+                                                height: 50,
+                                                width: 50,
+                                                child: SvgPicture.asset(
+                                                    'assets/animal_4.svg'),
+                                              ),
+                                            ],
+                                          )
+                                        ],
+                                      ),
                                     ),
                                   ),
-                                ),
+                                  Padding(
+                                    padding: const EdgeInsets.all(16.0),
+                                    child: Align(
+                                      child: Image.asset('assets/plus.png'),
+                                      alignment: Alignment.topRight,
+                                    ),
+                                  ),
+                                ]),
                               ),
                             ],
                           ),
@@ -211,51 +220,60 @@ class _HistoryPageState extends State<HistoryPage> {
                               ),
                             ),
                             Expanded(
-                              child: Card(
-                                shape: RoundedRectangleBorder(
-                                  side: BorderSide(
-                                    color: Colors.green,
-                                    width: 3.0,
+                              child: Stack(children: [
+                                Card(
+                                  shape: RoundedRectangleBorder(
+                                    side: BorderSide(
+                                      color: Colors.green,
+                                      width: 3.0,
+                                    ),
+                                    borderRadius: BorderRadius.circular(15.0),
                                   ),
-                                  borderRadius: BorderRadius.circular(15.0),
-                                ),
-                                child: Padding(
-                                  padding: const EdgeInsets.all(8.0),
-                                  child: Column(
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.center,
-                                    children: [
-                                      Container(
-                                        height: 100,
-                                        width: 100,
-                                        child: Image.network(
-                                          recom.good[1].image.original,
-                                          fit: BoxFit.scaleDown,
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      children: [
+                                        Container(
+                                          height: 100,
+                                          width: 100,
+                                          child: Image.network(
+                                            recom.good[1].image.original,
+                                            fit: BoxFit.scaleDown,
+                                          ),
                                         ),
-                                      ),
-                                      Text(recom.good[1].name + '\n'),
-                                      Row(
-                                        mainAxisAlignment:
-                                            MainAxisAlignment.center,
-                                        children: [
-                                          Container(
-                                            height: 50,
-                                            width: 50,
-                                            child: SvgPicture.asset(
-                                                'assets/clima_1.svg'),
-                                          ),
-                                          Container(
-                                            height: 50,
-                                            width: 50,
-                                            child: SvgPicture.asset(
-                                                'assets/animal_4.svg'),
-                                          ),
-                                        ],
-                                      )
-                                    ],
+                                        Text(recom.good[1].name + '\n'),
+                                        Row(
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.center,
+                                          children: [
+                                            Container(
+                                              height: 50,
+                                              width: 50,
+                                              child: SvgPicture.asset(
+                                                  'assets/clima_1.svg'),
+                                            ),
+                                            Container(
+                                              height: 50,
+                                              width: 50,
+                                              child: SvgPicture.asset(
+                                                  'assets/animal_4.svg'),
+                                            ),
+                                          ],
+                                        )
+                                      ],
+                                    ),
                                   ),
                                 ),
-                              ),
+                                Padding(
+                                  padding: const EdgeInsets.all(16.0),
+                                  child: Align(
+                                    child: Image.asset('assets/plus.png'),
+                                    alignment: Alignment.topRight,
+                                  ),
+                                ),
+                              ]),
                             ),
                           ],
                         ),
@@ -318,51 +336,60 @@ class _HistoryPageState extends State<HistoryPage> {
                               ),
                             ),
                             Expanded(
-                              child: Card(
-                                shape: RoundedRectangleBorder(
-                                  side: BorderSide(
-                                    color: Colors.green,
-                                    width: 3.0,
+                              child: Stack(children: [
+                                Card(
+                                  shape: RoundedRectangleBorder(
+                                    side: BorderSide(
+                                      color: Colors.green,
+                                      width: 3.0,
+                                    ),
+                                    borderRadius: BorderRadius.circular(15.0),
                                   ),
-                                  borderRadius: BorderRadius.circular(15.0),
-                                ),
-                                child: Padding(
-                                  padding: const EdgeInsets.all(8.0),
-                                  child: Column(
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.center,
-                                    children: [
-                                      Container(
-                                        height: 100,
-                                        width: 100,
-                                        child: Image.network(
-                                          recom.good[0].image.original,
-                                          fit: BoxFit.scaleDown,
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      children: [
+                                        Container(
+                                          height: 100,
+                                          width: 100,
+                                          child: Image.network(
+                                            recom.good[0].image.original,
+                                            fit: BoxFit.scaleDown,
+                                          ),
                                         ),
-                                      ),
-                                      Text(recom.good[0].name),
-                                      Row(
-                                        mainAxisAlignment:
-                                            MainAxisAlignment.center,
-                                        children: [
-                                          Container(
-                                            height: 50,
-                                            width: 50,
-                                            child: SvgPicture.asset(
-                                                'assets/clima_1.svg'),
-                                          ),
-                                          Container(
-                                            height: 50,
-                                            width: 50,
-                                            child: SvgPicture.asset(
-                                                'assets/animal_4.svg'),
-                                          ),
-                                        ],
-                                      )
-                                    ],
+                                        Text(recom.good[0].name),
+                                        Row(
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.center,
+                                          children: [
+                                            Container(
+                                              height: 50,
+                                              width: 50,
+                                              child: SvgPicture.asset(
+                                                  'assets/clima_1.svg'),
+                                            ),
+                                            Container(
+                                              height: 50,
+                                              width: 50,
+                                              child: SvgPicture.asset(
+                                                  'assets/animal_4.svg'),
+                                            ),
+                                          ],
+                                        )
+                                      ],
+                                    ),
                                   ),
                                 ),
-                              ),
+                                Padding(
+                                  padding: const EdgeInsets.all(16.0),
+                                  child: Align(
+                                    child: Image.asset('assets/plus.png'),
+                                    alignment: Alignment.topRight,
+                                  ),
+                                ),
+                              ]),
                             ),
                           ],
                         ),
