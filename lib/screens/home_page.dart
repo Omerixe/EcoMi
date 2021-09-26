@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 
 import 'history_page.dart';
 import 'purchases_page.dart';
@@ -25,7 +26,9 @@ class _HomePageState extends State<HomePage> {
           children: [
             HistoryPage(),
             PurchasesPage(),
-            Text('TBD'),
+            Center(
+              child: SvgPicture.asset('assets/game.svg'),
+            ),
           ],
           index: _selectedIndex,
         ),
