@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:mi_sustainability/data/recommendations.dart';
+
+import '../repository.dart';
 
 class HistoryPage extends StatefulWidget {
   @override
@@ -7,6 +10,18 @@ class HistoryPage extends StatefulWidget {
 }
 
 class _HistoryPageState extends State<HistoryPage> {
+  late Future<Recommendations> recommendations;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadRecommendations();
+  }
+
+  void _loadRecommendations() async {
+    recommendations = NetworkRepository().fetchRecommendations();
+  }
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(

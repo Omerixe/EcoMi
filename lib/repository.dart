@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:http/http.dart' as http;
+import 'package:mi_sustainability/data/recommendations.dart';
 
 import 'data/customer.dart';
 
@@ -9,6 +10,8 @@ abstract class Repository {
   Future<Customer> fetchCustomer(String customerId);
 
   Future<Purchase> fetchCart(String customerId, String purchaseId);
+
+  Future<Recommendations> fetchRecommendations();
 
   void customize(String customerId, double co2, double water, double animal);
 }
@@ -58,6 +61,22 @@ class NetworkRepository implements Repository {
       throw Exception('Failed to submit customization cart');
     }
   }
+
+  @override
+  Future<Recommendations> fetchRecommendations() async {
+    final response = await http
+        .get(Uri.parse(url + '/product/recommendation?category=meat'));
+
+    if (response.statusCode == 200) {
+      // If the server did return a 200 OK response,
+      // then parse the JSON.
+      return Recommendations.fromJson(jsonDecode(response.body));
+    } else {
+      // If the server did not return a 200 OK response,
+      // then throw an exception.
+      throw Exception('Failed to load cart');
+    }
+  }
 }
 
 class LocalRepository implements Repository {
@@ -75,4 +94,9 @@ class LocalRepository implements Repository {
 
   @override
   void customize(String customerId, double co2, double water, double animal) {}
+
+  @override
+  Future<Recommendations> fetchRecommendations() {
+    throw UnimplementedError();
+  }
 }
