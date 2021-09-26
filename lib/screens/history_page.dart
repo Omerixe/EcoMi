@@ -84,13 +84,13 @@ class _HistoryPageState extends State<HistoryPage> {
                                               height: 50,
                                               width: 50,
                                               child: SvgPicture.asset(
-                                                  'assets/clima_1.svg'),
+                                                  'assets/clima_${recom.bad[0].mCheck.carbonFootprint.groundAndSea.rating}.svg'),
                                             ),
                                             Container(
                                               height: 50,
                                               width: 50,
                                               child: SvgPicture.asset(
-                                                  'assets/animal_4.svg'),
+                                                  'assets/animal_${recom.bad[0].mCheck.animalWelfare.rating}.svg'),
                                             ),
                                           ],
                                         )
@@ -132,13 +132,13 @@ class _HistoryPageState extends State<HistoryPage> {
                                                 height: 50,
                                                 width: 50,
                                                 child: SvgPicture.asset(
-                                                    'assets/clima_1.svg'),
+                                                    'assets/clima_${recom.good[2].mCheck.carbonFootprint.groundAndSea.rating}.svg'),
                                               ),
                                               Container(
                                                 height: 50,
                                                 width: 50,
                                                 child: SvgPicture.asset(
-                                                    'assets/animal_4.svg'),
+                                                    'assets/animal_${recom.good[2].mCheck.animalWelfare.rating}.svg'),
                                               ),
                                             ],
                                           )
@@ -204,13 +204,13 @@ class _HistoryPageState extends State<HistoryPage> {
                                             height: 50,
                                             width: 50,
                                             child: SvgPicture.asset(
-                                                'assets/clima_1.svg'),
+                                                'assets/clima_${recom.bad[1].mCheck.carbonFootprint.groundAndSea.rating}.svg'),
                                           ),
                                           Container(
                                             height: 50,
                                             width: 50,
                                             child: SvgPicture.asset(
-                                                'assets/animal_4.svg'),
+                                                'assets/animal_${recom.bad[1].mCheck.animalWelfare.rating}.svg'),
                                           ),
                                         ],
                                       )
@@ -252,13 +252,13 @@ class _HistoryPageState extends State<HistoryPage> {
                                               height: 50,
                                               width: 50,
                                               child: SvgPicture.asset(
-                                                  'assets/clima_1.svg'),
+                                                  'assets/clima_${recom.good[1].mCheck.carbonFootprint.groundAndSea.rating}.svg'),
                                             ),
                                             Container(
                                               height: 50,
                                               width: 50,
                                               child: SvgPicture.asset(
-                                                  'assets/animal_4.svg'),
+                                                  'assets/animal_${recom.good[1].mCheck.animalWelfare.rating}.svg'),
                                             ),
                                           ],
                                         )
@@ -320,13 +320,13 @@ class _HistoryPageState extends State<HistoryPage> {
                                             height: 50,
                                             width: 50,
                                             child: SvgPicture.asset(
-                                                'assets/clima_1.svg'),
+                                                'assets/clima_${recom.bad[2].mCheck.carbonFootprint.groundAndSea.rating}.svg'),
                                           ),
                                           Container(
                                             height: 50,
                                             width: 50,
                                             child: SvgPicture.asset(
-                                                'assets/animal_4.svg'),
+                                                'assets/animal_${recom.bad[2].mCheck.animalWelfare.rating}.svg'),
                                           ),
                                         ],
                                       )
@@ -368,13 +368,13 @@ class _HistoryPageState extends State<HistoryPage> {
                                               height: 50,
                                               width: 50,
                                               child: SvgPicture.asset(
-                                                  'assets/clima_1.svg'),
+                                                  'assets/clima_${recom.good[0].mCheck.carbonFootprint.groundAndSea.rating}.svg'),
                                             ),
                                             Container(
                                               height: 50,
                                               width: 50,
                                               child: SvgPicture.asset(
-                                                  'assets/animal_4.svg'),
+                                                  'assets/animal_${recom.good[0].mCheck.animalWelfare.rating}.svg'),
                                             ),
                                           ],
                                         )

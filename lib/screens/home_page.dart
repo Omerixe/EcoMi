@@ -25,10 +25,10 @@ class _HomePageState extends State<HomePage> {
         body: IndexedStack(
           children: [
             HistoryPage(),
-            PurchasesPage(),
             Center(
               child: SvgPicture.asset('assets/game.svg'),
             ),
+            PurchasesPage(),
           ],
           index: _selectedIndex,
         ),
