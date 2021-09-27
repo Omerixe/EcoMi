@@ -8,4 +8,4 @@ It is built with Flutter and runs on iOS and Android devices. It can also be use
 
 
 
-For more information visit EcoMi on Devpost (link follows)
+For more information visit EcoMi on Devpost https://devpost.com/software/imprint-rohb1d
