@@ -20,7 +20,7 @@ class _HistoryPageState extends State<HistoryPage> {
   }
 
   void _loadRecommendations() async {
-    recommendations = NetworkRepository().fetchRecommendations();
+    recommendations = LocalRepository().fetchRecommendations();
   }
 
   @override

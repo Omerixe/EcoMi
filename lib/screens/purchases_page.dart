@@ -21,7 +21,7 @@ class _PurchasesPageState extends State<PurchasesPage> {
   }
 
   void loadCustomer() async {
-    customer = NetworkRepository().fetchCustomer('100688');
+    customer = LocalRepository().fetchCustomer('100688');
   }
 
   @override
